@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sistema Solar com A-Frame</title>
+  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-sky color="#000000"></a-sky>
+
+    <a-sphere position="0 0 -50" radius="10" color="yellow"></a-sphere>
+
+    <a-sphere position="15 0 -80" radius="1.3" color="gray">
+      <a-text value="Mercúrio" position="0 2 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="20 0 -100" radius="3.4" color="orange">
+      <a-text value="Vênus" position="0 4 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="30 0 -130" radius="3.6" color="blue">
+      <a-text value="Terra" position="0 4 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="40 0 -160" radius="1.9" color="red">
+      <a-text value="Marte" position="0 2 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="60 0 -200" radius="10" color="orange">
+      <a-text value="Júpiter" position="0 15 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="90 0 -250" radius="8.5" color="tan">
+      <a-text value="Saturno" position="0 14 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="120 0 -300" radius="3.5" color="cyan">
+      <a-text value="Urano" position="0 7 0" color="white" align="center"></a-text>
+    </a-sphere>
+    <a-sphere position="150 0 -350" radius="3.3" color="blue">
+      <a-text value="Netuno" position="0 7 0" color="white" align="center"></a-text>
+    </a-sphere>
+
+    <a-camera position="0 2 0"></a-camera>
+  </a-scene>
+</body>
+</html>
